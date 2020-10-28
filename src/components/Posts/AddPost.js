@@ -38,47 +38,47 @@ const AddPost = () => {
                 <input
                   type="text"
                   className="form-control form-control-lg"
-                  placeholder="Enter Post Title"
+                  placeholder="Enter the recipe name"
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
                 />
               </div>
               <div className="form-group">
                 <textarea
+                  rows="1"
+                  className="form-control form-control-lg"
+                  placeholder="Enter the preparation time"
+                  value={time}
+                  onChange={(e) => setTime(e.target.value)}
+                ></textarea>
+              </div>
+              <div className="form-group">
+                <textarea
+                  rows="1"
+                  className="form-control form-control-lg"
+                  placeholder="Enter the recipe source"
+                  value={sourceURL}
+                  onChange={(e) => setSourceURL(e.target.value)}
+                ></textarea>
+              </div>
+              <div className="form-group">
+                <textarea
                   rows="5"
                   className="form-control form-control-lg"
-                  placeholder="Enter Post Body Text"
+                  placeholder="Enter the ingredients"
+                  value={ingredients}
+                  onChange={(e) => setIngredients(e.target.value)}
+                ></textarea>
+              </div>
+              <div className="form-group">
+                <textarea
+                  rows="10"
+                  className="form-control form-control-lg"
+                  placeholder="Enter the preparation instructions"
                   value={body}
                   onChange={(e) => setBody(e.target.value)}
                 ></textarea>
               </div>
-              <div className="form-group">
-              <textarea
-                rows="5"
-                className="form-control form-control-lg"
-                placeholder="Enter Post Body Text"
-                value={body}
-                onChange={(e) => setTime(e.target.value)}
-              ></textarea>
-              <div className="form-group">
-              <textarea
-                rows="5"
-                className="form-control form-control-lg"
-                placeholder="Enter Post Body Text"
-                value={body}
-                onChange={(e) => setSourceURL(e.target.value)}
-              ></textarea>
-              <div className="form-group">
-              <textarea
-                rows="5"
-                className="form-control form-control-lg"
-                placeholder="Enter Post Body Text"
-                value={body}
-                onChange={(e) => setIngredients(e.target.value)}
-              ></textarea>
-            </div>
-            </div>
-            </div>
               <button className="btn btn-primary btn-lg">Add New Recipe</button>
             </form>
           </div>

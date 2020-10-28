@@ -1,233 +1,228 @@
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-body{
-    background-color: rgb(188, 184, 192); /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, rgb(19, 6, 39), rgb(163, 162, 163));
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+body {
+  background-color: rgb(
+    188,
+    184,
+    192
+  ); /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(19, 6, 39),
+    rgb(163, 162, 163)
+  );
 }
-.titleRec{
-    font-family: 'Sriracha', cursive;
-    text-align:center;
-    font-size: 35px;
-    color:white;
+.titleRec {
+  font-family: "Sriracha", cursive;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
-.instructions{
-    font-family: 'Sriracha', cursive;
-    text-align:center;
-    font-size: 20px;
+.instructions {
+  font-family: "Sriracha", cursive;
+  text-align: center;
+  font-size: 20px;
 }
-.ingredients{
-    font-family: 'Sriracha', cursive;
-   margin-top:70px;
-    font-size: 20px;
-    margin-left:55px;
-    color:white;
-}
-
-.linkDetails .link01{
-    
-    
-  
-    color:rgb(255, 255, 255);
-    margin-left:210px;
-    overflow: hidden;
-   
-    
-}
-.ing{
-  font-size:13px;
-  text-transform: capitalize;
-  font-family: 'Sriracha', cursive;
- 
+.ingredients {
+  font-family: "Sriracha", cursive;
+  margin-top: 70px;
+  font-size: 20px;
+  margin-left: 55px;
+  color: white;
 }
 
-.stylePrep{
+.linkDetails .link01 {
+  color: rgb(255, 255, 255);
+  margin-left: 210px;
+  overflow: hidden;
+}
+.ing {
   font-size: 13px;
-  font-family: 'Sriracha', cursive;
-}
-.styleIn{
-  font-size:10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
-  background-color: rgb(25, 20, 71);
-  color:white;
-  
+  text-transform: capitalize;
+  font-family: "Sriracha", cursive;
 }
 
-.btn-primary{
-  margin-left:65px;
+.stylePrep {
+  font-size: 13px;
+  font-family: "Sriracha", cursive;
+}
+.styleIn {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: rgb(25, 20, 71);
+  color: white;
+}
+
+.btn-primary {
+  margin-left: 65px;
   text-transform: uppercase;
   font-weight: bold;
   background-color: rgb(25, 20, 71);
-  font-size:12px;
+  font-size: 12px;
   letter-spacing: 2px;
 }
-.postTitle{
+.postTitle {
   font-size: 17px;
-  color:rgb(62, 62, 105);
+  color: rgb(62, 62, 105);
   font-weight: bold;
   text-align: center;
-  font-family: 'Sriracha', cursive;
-
- 
+  font-family: "Sriracha", cursive;
 }
-.card-img-top{
-  height:130px;
- width: 150px;
- margin-left: 95px;
- border-radius: 50%;
- border:3px solid rgba(58, 52, 82, 0.267);
- 
- 
+.card-img-top {
+  height: 130px;
+  width: 150px;
+  margin-left: 95px;
+  border-radius: 50%;
+  border: 3px solid rgba(58, 52, 82, 0.267);
 }
-.custom-card{
+.custom-card {
   height: 500px;
 }
-.link01{
+.link01 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size:11px;
+  font-size: 11px;
   text-decoration: none;
   margin-left: 110px;
 }
-.prepTime{
-  font-size:13px;
-  text-align:center;
+.prepTime {
+  font-size: 13px;
+  text-align: center;
 }
 
-.rowDetails{
-    margin-top:70px;
-    text-align: left;
-    width: 100%;
-    display: block;
-  }
-  
-  .half-row{
-    display: inline-block;
-    width: 50%;
-    padding: 1%;
-    float: left;
-  }
-  
-  .clear{
-    clear: both;
-  }
+.rowDetails {
+  margin-top: 70px;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
 
-  .imgDetails{
-      height:300px;
-      width:350px;
-      margin-left:17%;
-      border-radius: 50%;
-      border: 5px solid rgb(255, 255, 255);
-      margin-top:30px;
-  }
+.half-row {
+  display: inline-block;
+  width: 50%;
+  padding: 1%;
+  float: left;
+}
 
-  .instructionBox{
-    width: 490px;
+.clear {
+  clear: both;
+}
+
+.imgDetails {
+  height: 300px;
+  width: 350px;
+  margin-left: 17%;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+  margin-top: 30px;
+}
+
+.instructionBox {
+  width: 490px;
   background-color: white;
   border-radius: 10px;
-    padding: 20px;
-    border: 5px solid rgb(24, 21, 21);
-    margin: 0;
-    margin-top: 70px;
-  }
+  padding: 20px;
+  border: 5px solid rgb(24, 21, 21);
+  margin: 0;
+  margin-top: 70px;
+}
 
-  .bodyDetails{
-    font-family: 'Sriracha';
-    font-size: 14px;
-  }
+.bodyDetails {
+  font-family: "Sriracha";
+  font-size: 14px;
+}
 
-  .ingr{
-    font-family: 'Sriracha';
-    color:rgb(170, 169, 169);
-    font-size: 15px;
-    margin-left: 50px;
-  }
+.ingr {
+  font-family: "Sriracha";
+  color: rgb(170, 169, 169);
+  font-size: 15px;
+  margin-left: 50px;
+}
 
-  button {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    outline: none;
-    border: 0;
-    vertical-align: middle;
-    text-decoration: none;
-    background: transparent;
-    padding: 0;
-    font-size: inherit;
-   font-family: 'Sriracha';
-  }
-  button.learn-more {
-    width: 12rem;
-    height: auto;
-    margin-left:50px;
-    margin-top:15px;
-    
-  }
-  button.learn-more .circle {
-    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: relative;
-    display: block;
-    margin: 0;
-    width: 3rem;
-    height: 3rem;
-    background: #282933;
-    border-radius: 1.625rem;
-  }
-  button.learn-more .circle .icon {
-    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    background: #fff;
-  }
-  button.learn-more .circle .icon.arrow {
-    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    left: 0.625rem;
-    width: 1.125rem;
-    height: 0.125rem;
-    background: none;
-  }
-  button.learn-more .circle .icon.arrow::before {
-    position: absolute;
-    content: '';
-    top: -0.25rem;
-    right: 0.0625rem;
-    width: 0.625rem;
-    height: 0.625rem;
-    border-top: 0.125rem solid #fff;
-    border-right: 0.125rem solid #fff;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-  }
-  button.learn-more .button-text {
-    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0.75rem 0;
-    margin: 0 0 0 1.85rem;
-    color: #1d1e27;
-    font-weight: 500;
-    line-height: 1.6;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  button:hover .circle {
-    width: 100%;
-  }
-  button:hover .circle .icon.arrow {
-    background: #fff;
-    -webkit-transform: translate(1rem, 0);
-            transform: translate(1rem, 0);
-  }
-  button:hover .button-text {
-    color: #fff;
-  }
-  
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: "Sriracha";
+}
+button.learn-more {
+  width: 12rem;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+button.learn-more .circle {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282933;
+  border-radius: 1.625rem;
+}
+button.learn-more .circle .icon {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+button.learn-more .circle .icon.arrow {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+button.learn-more .button-text {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #1d1e27;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+button:hover .circle {
+  width: 100%;
+}
+button:hover .circle .icon.arrow {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+  transform: translate(1rem, 0);
+}
+button:hover .button-text {
+  color: #fff;
+}
