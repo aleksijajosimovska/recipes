@@ -6,3 +6,11 @@
    
 
 }
+
+.btn-dark{
+    text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgb(25, 20, 71);
+  font-size:12px;
+  letter-spacing: 2px;
+}

@@ -4,10 +4,12 @@ import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import OpenApp from "react-open-app";
 import EllipsisText from "react-ellipsis-text";
+import LinesEllipsis from 'react-lines-ellipsis';
 
 
 const PostCard = ({ postItem }) => {
   const dispatch = useDispatch();
+  
   return (
     <div className="col-6 col-md-4">
       <div className="card custom-card">
@@ -25,15 +27,25 @@ const PostCard = ({ postItem }) => {
           <span class="material-icons">delete_outline</span>
         </button>
         <div className="card-body">
-          <h6 className="text-secondary">{postItem.title}</h6>
+          <h1 className="postTitle">{postItem.title}</h1>
           <OpenApp href={postItem.sourceURL} className="link01">
               Recipe Source
             </OpenApp>
-          <h5>Preparation time: {postItem.time}</h5>
+          <h1 className="prepTime">Preparation time: {postItem.time}</h1>
           <br></br>
-          <p>{postItem.ingredients}</p>
+        <p className="styleIn">Ingredients:</p>
+          <LinesEllipsis 
+          text={postItem.ingredients} 
+          maxLine="3" 
+          ellipsis='...'
+          trimRight
+          className="ing"
+          basedOn="words" 
+          />
+         
           <br></br>
-          <EllipsisText text={postItem.body} length={"50"} />
+          <p className="styleIn">Instructions: </p>
+          <EllipsisText text={postItem.body} length={"50"} className="stylePrep"/>
         </div>
         <div className="card-footer">
           <Link to={`/post/${postItem.id}`} className="btn btn-primary">

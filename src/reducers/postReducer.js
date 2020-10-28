@@ -12,7 +12,7 @@ const initialState = {
       title:
         "Baked Egg with Canadian Bacon, Tomato and Potatoes",
         ingredients:
-        "canadian bacon, butter, eggs, black pepper, tomatoes, potato, swiss cheese ",
+        "Bacon, butter, eggs, black pepper, tomatoes, potato, cheese ",
         time:
         "30 min",
         sourceURL:"https://www.yummly.com/recipe/Baked-Egg-with-Canadian-Bacon_-Tomato-and-Potatoes-2247908",
