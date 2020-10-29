@@ -5,9 +5,17 @@ import { Link } from "react-router-dom";
 import OpenApp from "react-open-app";
 import EllipsisText from "react-ellipsis-text";
 import LinesEllipsis from 'react-lines-ellipsis';
+import Moment from 'react-moment';
+import moment from "moment";
 
-
+const convertMinsToTime = ({postItem}) => {
+  let hours = Math.floor((postItem.time) / 60);
+  let minutes = (postItem.time) % 60;
+  minutes = minutes < 10 ? '0' + minutes : minutes;
+  return `${hours ? `${hours}hrs:` : ''}${minutes}mins`
+}
 const PostCard = ({ postItem }) => {
+ 
   const dispatch = useDispatch();
   
   return (
@@ -31,7 +39,8 @@ const PostCard = ({ postItem }) => {
           <OpenApp href={postItem.sourceURL} className="link01">
               Recipe Source
             </OpenApp>
-          <h1 className="prepTime">Preparation time: {postItem.time}</h1>
+          <h1 className="prepTime">Preparation time:
+         {convertMinsToTime}</h1>
           <br></br>
         <p className="styleIn">Ingredients:</p>
           <LinesEllipsis 
