@@ -87,7 +87,7 @@ const initialState = {
       userId: 1,
       id: 7,
       title: "Cuban-Style Pork Burgers",
-      time: "25 min",
+      time: 75,
       ingredients:"garlic, spanish chorizo, ground pork, bread crumbs, egg, onion, salt, lettuce leaves, pepper ",
      
       sourceURL:"https://www.yummly.com/recipe/Cuban-Style-Pork-Burgers-1585326",

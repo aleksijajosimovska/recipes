@@ -37,10 +37,9 @@ const Post = () => {
           </span>
           <h2 className="ingredients">Ingredients:</h2>
           <p className="ingr">{post.ingredients}</p>
+          
           <button className="learn-more">
-            <span className="circle" aria-hidden="true">
-              <span className="icon arrow"></span>
-            </span>
+          
             <span className="button-text">Delete Recipe</span>
           </button>
         </div>
