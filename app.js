@@ -7,7 +7,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3002
 
-if(!process.env.NODE_ENV || process.env.NODE_ENV !== 'production'){
+if(!process.env.NODE_ENV || process.env.NODE_ENV !== 'production') {
     app.use(cors())
 } 
 
