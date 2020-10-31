@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getPost } from "../../actions/postAction";
 import { useParams } from "react-router-dom";
+import Popup from "./Popup"
 
 
 
@@ -47,7 +48,7 @@ const Post = () => {
          
           >
           
-            <span className="button-text">Delete Recipe</span>
+            <Popup />
           </button>
         </div>
         <div className="half-row">
