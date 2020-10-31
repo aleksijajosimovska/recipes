@@ -33,7 +33,7 @@ export default function DialogSelect() {
         open={open}
         onClose={handleClose}
       >
-        <DialogTitle>do you really want to delete it?</DialogTitle>
+        <DialogTitle>Do you really want to delete it?</DialogTitle>
         <DialogActions>
           <Button onClick={handleClose} color="primary">
             Cancel
