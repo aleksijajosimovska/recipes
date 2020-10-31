@@ -44,11 +44,12 @@ const PostCard = ({ postItem }) => {
                     <p className='styleIn'>Ingredients:</p>
                     <LinesEllipsis
                         text={postItem.ingredients}
-                        maxLine='3'
+                        maxLine={3}
                         ellipsis='...'
                         trimRight
                         basedOn='words'
                         className='ing'
+                        
                     />
                     <br></br>
                     <p className='styleIn'>Instructions: </p>

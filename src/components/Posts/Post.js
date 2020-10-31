@@ -9,6 +9,9 @@ import OpenApp from "react-open-app";
 
 import "./recipeDetails.css";
 
+
+
+
 const Post = () => {
   const dispatch = useDispatch();
   const post = useSelector((state) => state.post.post);
@@ -40,7 +43,8 @@ const Post = () => {
           <h2 className="ingredients">Ingredients:</h2>
           <p className="ingr">{post.ingredients}</p>
           
-          <button className="learn-more" 
+          <button className="learn-more"  
+         
           >
           
             <span className="button-text">Delete Recipe</span>
