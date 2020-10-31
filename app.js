@@ -5,7 +5,7 @@ const routes = require('./api');
 
 const app = express();
 
-const PORT = process.env.PORT || 3002
+const PORT = process.env.PORT || 3001
 
 if(!process.env.NODE_ENV || process.env.NODE_ENV !== 'production'){
     app.use(cors())

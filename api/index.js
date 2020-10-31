@@ -1,9 +1,9 @@
 const router = require('express').Router();
 
 router.route('/')
-.get((req,res) => {
+.get((req, res) => {
     res.json({
-        msg:'Hello there!'
+        msg:'Hello there'
     })
 })
 
