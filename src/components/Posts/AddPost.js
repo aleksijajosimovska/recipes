@@ -4,6 +4,8 @@ import { createPost } from "../../actions/postAction";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
+
+
 const AddPost = () => {
   let history = useHistory();
   const dispatch = useDispatch();
@@ -41,6 +43,7 @@ const AddPost = () => {
                   placeholder="Enter the recipe name"
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
+                  required
                 />
               </div>
               <div className="form-group">
@@ -50,6 +53,7 @@ const AddPost = () => {
                   placeholder="Enter the preparation time"
                   value={time}
                   onChange={(e) => setTime(e.target.value)}
+                  required
                 ></textarea>
               </div>
               <div className="form-group">
@@ -68,6 +72,7 @@ const AddPost = () => {
                   placeholder="Enter the ingredients"
                   value={ingredients}
                   onChange={(e) => setIngredients(e.target.value)}
+                  required
                 ></textarea>
               </div>
               <div className="form-group">
@@ -77,6 +82,7 @@ const AddPost = () => {
                   placeholder="Enter the preparation instructions"
                   value={body}
                   onChange={(e) => setBody(e.target.value)}
+                  required
                 ></textarea>
               </div>
               <button className="btn btn-primary btn-lg">Add New Recipe</button>
