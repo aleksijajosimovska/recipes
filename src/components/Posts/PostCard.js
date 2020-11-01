@@ -49,8 +49,8 @@ const PostCard = ({ postItem }) => {
                         trimRight
                         basedOn='words'
                         className='ing'
-                        
-                    />
+                        />
+                    
                     <br></br>
                     <p className='styleIn'>Instructions: </p>
                     <EllipsisText

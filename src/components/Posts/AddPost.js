@@ -47,33 +47,34 @@ const AddPost = () => {
                 />
               </div>
               <div className="form-group">
-                <textarea
+                <input
                   rows="1"
                   className="form-control form-control-lg"
-                  placeholder="Enter the preparation time"
+                  placeholder="Enter the preparation time (in minutes) "
                   value={time}
                   onChange={(e) => setTime(e.target.value)}
+                  pattern="[0-9]*"
                   required
-                ></textarea>
+                />
               </div>
               <div className="form-group">
-                <textarea
+                <input
                   rows="1"
                   className="form-control form-control-lg"
                   placeholder="Enter the recipe source"
                   value={sourceURL}
                   onChange={(e) => setSourceURL(e.target.value)}
-                ></textarea>
+                ></input>
               </div>
               <div className="form-group">
-                <textarea
+                <input
                   rows="5"
                   className="form-control form-control-lg"
                   placeholder="Enter the ingredients"
                   value={ingredients}
                   onChange={(e) => setIngredients(e.target.value)}
                   required
-                ></textarea>
+                ></input>
               </div>
               <div className="form-group">
                 <textarea
