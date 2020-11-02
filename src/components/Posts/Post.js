@@ -10,7 +10,16 @@ import OpenApp from "react-open-app";
 
 import "./recipeDetails.css";
 
-
+const convertMinsToTime = (time) => {
+  const hours = Math.floor(time / 60);
+  if (hours === 0) {
+      return `${time} minutes`;
+  } else if (hours === 1) {
+      return `${hours} hour and ${time % 60} minutes`;
+  } else {
+      return `${hours} hours and ${time % 60} minutes`;
+  }
+};
 
 
 const Post = () => {
@@ -41,6 +50,9 @@ const Post = () => {
               Recipe Source
             </OpenApp>
           </span>
+          <h1 className='prepTime'>
+                        Preparation time: {convertMinsToTime(post.time)}
+                    </h1>
           <h2 className="ingredients">Ingredients:</h2>
           <p className="ingr">{post.ingredients}</p>
           
