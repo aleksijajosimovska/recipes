@@ -83,6 +83,7 @@ const AddPost = () => {
                   placeholder="Enter the preparation instructions"
                   value={body}
                   onChange={(e) => setBody(e.target.value)}
+                  pattern=".{10,50}"
                   required
                 ></textarea>
               </div>

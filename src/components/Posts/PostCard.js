@@ -42,15 +42,7 @@ const PostCard = ({ postItem }) => {
                     </h1>
                     <br></br>
                     <p className='styleIn'>Ingredients:</p>
-                    <LinesEllipsis
-                        text={postItem.ingredients}
-                        maxLine={3}
-                        ellipsis='...'
-                        trimRight
-                        basedOn='words'
-                        className='ing'
-                        />
-                    
+                    <p className="ing">{postItem.ingredients.split(',').slice(0,3).join(',')}...</p>
                     <br></br>
                     <p className='styleIn'>Instructions: </p>
                     <EllipsisText
